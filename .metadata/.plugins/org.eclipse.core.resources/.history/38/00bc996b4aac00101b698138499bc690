@@ -42,14 +42,7 @@ int main(void)
 while(1)
 {
 	//Set PA5 high
-//	GPIOA_OD_R |= PIN5;
-
-	//toggle led
-	GPIOA_OD_R  ^= PIN5;
-	for (int i = 0; i<100000; i++){
-		// do nothing, just waste time (for delay)
-
-	}
+	GPIOA_OD_R |= PIN5;
 
 }
 }
