@@ -230,3 +230,6 @@ java.lang.Exception: The project description file (.project) for '00_led_toggle_
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-10-19 23:34:57.284
 !MESSAGE Indexed '03_gpio_bsrr' (3 sources, 62 headers) in 0.818 sec: 3,052 declarations; 5,084 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.025%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-20 00:16:59.019
+!MESSAGE Indexed '04_gpio_input' (4 sources, 60 headers) in 1.09 sec: 2,673 declarations; 3,768 references; 3 unresolved inclusions; 30 syntax errors; 583 unresolved names (8.3%)
