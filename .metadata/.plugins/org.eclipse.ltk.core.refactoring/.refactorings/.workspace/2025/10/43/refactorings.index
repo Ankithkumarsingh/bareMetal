@@ -2,3 +2,4 @@
 1760893095887	Rename resource '02_led_toggle_addr_struct'
 1760893138936	Rename resource '0_led_toggle_addr'
 1760893199061	Rename resource '1_led_toggle_addr_struct'
+1760893902366	Delete resource '00_led_toggle_addr'

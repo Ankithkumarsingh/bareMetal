@@ -59,8 +59,8 @@ all: main-build
 main-build: 00_led_toggle_addr.elf secondary-outputs
 
 # Tool invocations
-00_led_toggle_addr.elf 00_led_toggle_addr.map: $(OBJS) $(USER_OBJS) /home/ankith/bareMetal/01_led_toggle_addr/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "00_led_toggle_addr.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/ankith/bareMetal/01_led_toggle_addr/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="00_led_toggle_addr.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+00_led_toggle_addr.elf 00_led_toggle_addr.map: $(OBJS) $(USER_OBJS) /home/ankith/bareMetal/00_led_toggle_addr/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "00_led_toggle_addr.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/ankith/bareMetal/00_led_toggle_addr/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="00_led_toggle_addr.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
