@@ -233,3 +233,21 @@ java.lang.Exception: The project description file (.project) for '00_led_toggle_
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-10-20 00:16:59.019
 !MESSAGE Indexed '04_gpio_input' (4 sources, 60 headers) in 1.09 sec: 2,673 declarations; 3,768 references; 3 unresolved inclusions; 30 syntax errors; 583 unresolved names (8.3%)
+!SESSION 2025-10-20 08:20:18.227 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-20 08:20:29.582
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-20 08:20:29.583
+!MESSAGE Log4j2 initialized with config file /home/ankith/bareMetal/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-20 08:20:37.299
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-20 15:50:41.205
+!MESSAGE Indexed '05_usart_tx' (4 sources, 60 headers) in 2.36 sec: 2,669 declarations; 3,814 references; 3 unresolved inclusions; 30 syntax errors; 583 unresolved names (8.3%)
