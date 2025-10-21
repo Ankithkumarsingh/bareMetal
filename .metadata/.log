@@ -284,3 +284,21 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-10-22 00:28:15.822
 !MESSAGE Indexed '06_usart_printf' (4 sources, 60 headers) in 2.62 sec: 2,713 declarations; 3,902 references; 4 unresolved inclusions; 30 syntax errors; 593 unresolved names (8.2%)
+!SESSION 2025-10-22 00:46:22.922 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-22 00:46:32.128
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-22 00:46:32.129
+!MESSAGE Log4j2 initialized with config file /home/ankith/bareMetal/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-22 00:46:39.048
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-22 00:47:10.201
+!MESSAGE Indexed '07_usart_modular' (4 sources, 62 headers) in 2.79 sec: 2,861 declarations; 4,048 references; 5 unresolved inclusions; 30 syntax errors; 593 unresolved names (7.9%)
