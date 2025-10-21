@@ -281,3 +281,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-21 22:50:47.015
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-22 00:28:15.822
+!MESSAGE Indexed '06_usart_printf' (4 sources, 60 headers) in 2.62 sec: 2,713 declarations; 3,902 references; 4 unresolved inclusions; 30 syntax errors; 593 unresolved names (8.2%)
