@@ -555,9 +555,9 @@ LOAD /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  *fill*         0x0800036e        0x2 
  .text._sbrk    0x08000370       0x6c ./Src/sysmem.o
                 0x08000370                _sbrk
- .text.uar2_tx_init
+ .text.uart2_tx_init
                 0x080003dc       0x98 ./Src/uart.o
-                0x080003dc                uar2_tx_init
+                0x080003dc                uart2_tx_init
  .text.uart_set_baudrate
                 0x08000474       0x24 ./Src/uart.o
  .text.compute_uart_bd
@@ -1098,13 +1098,13 @@ LOAD /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .debug_line    0x0000123e      0x545 ./Src/uart.o
  .debug_line    0x00001783       0x7b ./Startup/startup_stm32f411retx.o
 
-.debug_str      0x00000000    0x553e3
- .debug_str     0x00000000    0x553e3 ./Src/main.o
-                              0x531df (size before relaxing)
- .debug_str     0x000553e3     0x99ee ./Src/syscalls.o
- .debug_str     0x000553e3     0x778c ./Src/sysmem.o
- .debug_str     0x000553e3    0x4f917 ./Src/uart.o
- .debug_str     0x000553e3       0x69 ./Startup/startup_stm32f411retx.o
+.debug_str      0x00000000    0x553e4
+ .debug_str     0x00000000    0x553e4 ./Src/main.o
+                              0x531e0 (size before relaxing)
+ .debug_str     0x000553e4     0x99ee ./Src/syscalls.o
+ .debug_str     0x000553e4     0x778c ./Src/sysmem.o
+ .debug_str     0x000553e4    0x4f918 ./Src/uart.o
+ .debug_str     0x000553e4       0x69 ./Startup/startup_stm32f411retx.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Src/main.o

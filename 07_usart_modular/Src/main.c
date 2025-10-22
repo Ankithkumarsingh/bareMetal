@@ -8,7 +8,7 @@ int main(void)
 {
 
 
-	uar2_tx_init();
+	uart2_tx_init();
 
 	while(1)
 	{

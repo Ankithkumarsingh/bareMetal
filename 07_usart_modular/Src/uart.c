@@ -25,7 +25,7 @@ int __io_putChar(int ch)
 }
 
 
-void uar2_tx_init(void)
+void uart2_tx_init(void)
 {
 	/****************Configure uart gpio pin***************/
 	/*Enable clock access to gpioa */
