@@ -300,3 +300,5 @@
 2025-11-01 09:48:56,708 [INFO] WebApp:225 - Starting web application
 2025-11-01 09:48:56,708 [INFO] WebApp:593 - Web application path used /opt/st/stm32cubeide_1.19.0/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659/db/plugins/mcufinder/reactClient1/index.html
 2025-11-01 09:48:56,800 [INFO] WebApp:191 - Connection restablished
+2025-11-01 10:40:48,398 [INFO] WebApp:194 - Connection lost
+2025-11-01 10:40:48,652 [INFO] WebApp:191 - Connection restablished

@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;09_adc/Inc/adc.c&apos;" deleteContents="false" description="Delete resource &apos;09_adc/Inc/adc.c&apos;" element1="/09_adc/Inc/adc.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1761971726153"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;09_adc/Inc/adc.c&apos;" deleteContents="false" description="Delete resource &apos;09_adc/Inc/adc.c&apos;" element1="/09_adc/Inc/adc.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1761971726153"/>&#x0A;<refactoring comment="Rename resource &apos;09_adc&apos; to &apos;09_adc_singleConversion&apos;" description="Rename resource &apos;09_adc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/09_adc" name="09_adc_singleConversion" stamp="1761974979017" updateReferences="true"/>
 </session>
